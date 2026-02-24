@@ -259,7 +259,7 @@ const getGamePieces = () => { return game.pieces; }
 
 //const gameClass = require('./Game.js');
 //const game = new gameClass.constructor(pieces, 'white');
-const game = Game(pieces, 'white');
+const game = new Game(pieces, 'white');
 
 const startNewGame = () => {
     document.querySelectorAll('.scene').forEach( scene => scene.classList.remove('show') );
