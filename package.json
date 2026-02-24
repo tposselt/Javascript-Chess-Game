@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "jest-environment-jsdom": "^30.2.0",
+    "jsdom": "^28.1.0",
+    "selenium-webdriver": "^4.41.0"
+  },
+  "name": "javascript-chess-game",
+  "version": "1.0.0",
+  "description": "This is a complete well automated chess game made by object oriented javascript I hope you like it.",
+  "main": "ai.js",
+  "devDependencies": {
+    "@babel/preset-env": "^7.29.0",
+    "babel-jest": "^30.2.0",
+    "jest": "^30.2.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tposselt/Javascript-Chess-Game.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/tposselt/Javascript-Chess-Game/issues"
+  },
+  "homepage": "https://github.com/tposselt/Javascript-Chess-Game#readme"
+}

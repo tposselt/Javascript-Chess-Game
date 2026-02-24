@@ -21,7 +21,16 @@
 			<input type="radio" name="oponent" id="aiOponent" value="ai" onchange="changeColorSelect()">
 			<label for="aiOponent">AI</label>
 		</div>
-		
+
+		<div style="margin-bottom: 50px;">
+			<h2>Game Mode</h2>
+			<input type="radio" name="game_mode" id="baseGameMode" value="base" checked>
+			<label for="baseGameMode">Normal Chess</label>
+			&ensp;
+			<input type="radio" name="game_mode" id="960GameMode" value="960">
+			<label for="960GameMode">Chess 960</label>
+		</div>
+
 		<div class="select-color-container" style="margin-bottom: 50px;display: none;">
 			<h2>Select Your Color</h2>
 			<input type="radio" name="human_color" id="humanColorWhite" value="white" checked>
